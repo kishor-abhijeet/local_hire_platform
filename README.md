@@ -229,14 +229,3 @@ dist
 ```env
 VITE_API_URL=https://your-render-backend.onrender.com/api
 ```
-
-## Viva Explanation
-
-The app follows a simple MVC-style backend:
-
-- Models define MongoDB collections.
-- Controllers contain request logic.
-- Routes connect URLs to controllers.
-- Middleware checks JWT tokens and roles.
-
-The frontend uses reusable React components, React Router pages, an Auth context for login state, and Axios for API calls.
