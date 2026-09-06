@@ -218,13 +218,6 @@ npm start
 npm run build
 ```
 
-4. Output directory:
-
-```txt
-dist
-```
-
-5. Add:
 
 ```env
 VITE_API_URL=https://your-render-backend.onrender.com/api
